@@ -1,0 +1,33 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "producto",
+            "otherEntityName": "producto",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "teka"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "tipo",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "modelo",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "cantidad",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20160217200643",
+    "dto": "no",
+    "pagination": "no"
+}
